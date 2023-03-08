@@ -8,8 +8,6 @@ def hitung_mobil():
             jumlah_mobil[asal] += 1
         if asal == 'Done':
             break
-        else:
-            print("Asal mobil tidak valid!")
     
     for kota, jumlah in jumlah_mobil.items():
         print("Jumlah mobil dari {}: {}".format(kota, jumlah))
